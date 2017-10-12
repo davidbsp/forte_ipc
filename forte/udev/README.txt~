@@ -1,0 +1,5 @@
+These "rules" files must be at "/etc/udev/rules.d" when the system boots.
+
+When changes are made to the rules, just use these commands to reload:
+
+sudo udevadm control --reload-rules && sudo service udev restart && sudo udevadm trigger

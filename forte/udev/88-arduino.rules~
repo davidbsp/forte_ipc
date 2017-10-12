@@ -1,0 +1,1 @@
+SUBSYSTEMS=="usb",ATTRS{idProduct}=="0044",ATTRS{idVendor}=="2341",SYMLINK+="arduino",GROUP="dialout"
